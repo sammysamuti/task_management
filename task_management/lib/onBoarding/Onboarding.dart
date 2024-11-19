@@ -204,7 +204,7 @@ class _OnboardingState extends State<Onboarding>
             'Skip',
             style: TextStyle(
               fontWeight: FontWeight.w300,
-              fontSize: 14,
+              fontSize: 12,
               height: 20 / 14,
             ),
           ),
@@ -246,7 +246,7 @@ class _OnboardingState extends State<Onboarding>
             isLastPage ? 'Get Started' : 'Next',
             style: const TextStyle(
               fontWeight: FontWeight.w300,
-              fontSize: 14,
+              fontSize: 12,
               height: 20 / 14,
             ),
           ),

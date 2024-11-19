@@ -85,7 +85,7 @@ class _LoginState extends State<Login> {
                     child: Text(
                       'Login',
                       style: TextStyle(
-                        fontSize: 32,
+                        fontSize: 20,
                         fontWeight: FontWeight.bold,
                         color: Color.fromARGB(255, 91, 90, 90),
                       ),
@@ -130,7 +130,7 @@ class _LoginState extends State<Login> {
                                   'Log in',
                                   style: TextStyle(
                                     color: Colors.white,
-                                    fontSize: 18,
+                                    fontSize: 16,
                                   ),
                                 ),
                         ),
@@ -144,7 +144,7 @@ class _LoginState extends State<Login> {
                       const Text(
                         "Don't have an account? ",
                         style: TextStyle(
-                          fontSize: 16,
+                          fontSize: 14,
                           color: Colors.black,
                         ),
                       ),
@@ -160,7 +160,7 @@ class _LoginState extends State<Login> {
                         child: const Text(
                           'Sign up',
                           style: TextStyle(
-                            fontSize: 16,
+                            fontSize: 14,
                             color: Color.fromARGB(255, 91, 90, 90),
                             fontWeight: FontWeight.bold,
                           ),
@@ -192,7 +192,7 @@ class _LoginState extends State<Login> {
         Text(
           label,
           style: TextStyle(
-            fontSize: 16,
+            fontSize: 14,
             fontWeight: FontWeight.bold,
             color: Color.fromARGB(255, 91, 90, 90),
           ),
